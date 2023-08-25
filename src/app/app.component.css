@@ -1,0 +1,39 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  label{
+    width: 100vw;
+    margin:  2vw 10vw 0 20vw;
+    
+  }
+
+  textarea{
+    width: 50vw;
+    margin:  2vw 10vw 0 20vw;
+    border: 2px solid black;
+  }
+
+  input{
+    width: 50vw;
+    margin: 1vw 10vw 0 20vw ;
+    border: 2px solid black;
+  }
+
+   button{
+    width: 50vw;
+    margin: 1vw 10vw 5vw 20vw ;
+    background:#007bff;
+   }
+
+.row{
+    border: 2px solid black;
+
+}
+
+  
+   

@@ -1,0 +1,18 @@
+
+<div class="container">
+<div class="row">
+<label htmlFor="username" >Add Section</label>
+<label htmlFor="username" >Section Header</label>
+<input [(ngModel)]="newSectionHeader" >
+<label htmlFor="username">Section details </label>
+<textarea rows="5" cols="30" [(ngModel)]="newSectionDetails"   ></textarea>
+<button (click)="addSection()" >Add</button>
+</div>
+<p-accordion class="row">
+  <p-accordionTab *ngFor="let section of sections; let i = index" [header]="section.header" >
+    {{ section.details }}
+  </p-accordionTab>
+</p-accordion>
+
+</div>
+
